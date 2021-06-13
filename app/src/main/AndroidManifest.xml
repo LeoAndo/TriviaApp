@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.reo.trivia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".presentation.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="UnusedAttribute">
+        <activity
+            android:name=".presentation.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.flipper.android.diagnostics.FlipperDiagnosticActivity"
+            android:exported="true" />
+
+
+        <!-- https://developer.android.com/training/app-links/verify-site-associations.html?hl=ja#the-difference -->
+        <!-- Firebase App Indexのアプリリンクの実装. -->
+        <!-- [START intent_filter] -->
+        <activity
+            android:name=".presentation.AppLinkActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "https://www.example.com/articles/" -->
+                <data
+                    android:host="www.example.com"
+                    android:pathPrefix="/articles/"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <!-- [END intent_filter] -->
+    </application>
+
+</manifest>

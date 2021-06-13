@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="title_home">Normal</string>
+    <string name="title_dashboard">Random</string>
+    <string name="title_notifications">history</string>
+    <string name="label_title">TODOのtitleを入力してください(必須)</string>
+    <string name="label_content">TODOのmemoを入力してください(任意)</string>
+    <string name="button_get_trivia">Get Trivia</string>
+    <string name="simple_crud_read">Simple CRUD: read</string>
+    <string name="simple_crud_update">Simple CRUD: update</string>
+    <string name="simple_crud_delete">Simple CRUD: delete</string>
+    <string name="label_where">where句(todo.title)を入力してください</string>
+    <string name="button_enable_transaction_sync">transactionありの5件レコード追加</string>
+    <string name="button_no_transaction_sync">transactionなしの5件レコード追加</string>
+    <string name="birth_year">year</string>
+    <string name="month">month</string>
+    <string name="label_trivia">Get randomly generated trivia!!</string>
+    <string name="date">date</string>
+    <string name="button_get_random_trivia">get random trivia</string>
+    <string name="button_get_random_year_trivia">random year trivia</string>
+    <string name="button_get_random_date_trivia">random date trivia</string>
+    <string name="button_get_random_math_trivia">random math trivia</string>
+</resources>
