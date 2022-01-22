@@ -1,6 +1,13 @@
 # TriviaApp
 example app for Using Trivia API
 
+# MAD Score
+
+![summary](https://user-images.githubusercontent.com/16476224/150647607-249801bc-d950-4bc7-b1e1-4f2c52e84c70.png)
+![kotlin](https://user-images.githubusercontent.com/16476224/150647605-56ce6577-9ab3-446b-a4cd-ed69a7183173.png)
+![jetpack](https://user-images.githubusercontent.com/16476224/150647603-f187cc7a-e9db-47f0-b6ed-7c4b1d87e9dd.png)
+![studio](https://user-images.githubusercontent.com/16476224/150647606-e7b45450-f6f9-42cb-8581-166338fa7a3c.png)
+
 # API
 
 http://numbersapi.com
