@@ -6,7 +6,7 @@ example app for Using Trivia API
 http://numbersapi.com
 
 # use Library
-https://github.com/LeoAndo/TriviaApp/blob/main/app/build.gradle#L46
+https://github.com/LeoAndo/TriviaApp/blob/main/app/build.gradle#L46:L107
 
 # capture Pixcel 4 OS:11
 
